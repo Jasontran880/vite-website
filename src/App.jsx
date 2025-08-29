@@ -3,6 +3,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero';
 import TrustedBy from './components/TrustedBy'
 import Expertise from './components/Expertise';
+import Approach from './components/Approach';
 
 
 
@@ -17,6 +18,7 @@ const App = () => {
       <Navbar theme={theme} setTheme={setTheme} />
       <Hero />
       <Expertise />
+      <Approach />
     </div>
   )
 }

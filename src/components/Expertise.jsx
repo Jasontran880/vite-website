@@ -28,11 +28,10 @@ const Expertise = () => {
 
   
   return (
-    <div>
+    <div id="Expertise" className="py-20">
         
         {/* Title */}
-       
-        <div id="services" className="relative text-center flex flex-col items-center gap-7 px-4 sm:px-12 
+        <div  className="relative text-center flex flex-col items-center gap-7 px-4 sm:px-12 
         lg:px-24 xl:px-40 pt-10 text-gray-700 dark:text-white">
 
           <h2 className="text-4xl sm:text-5xl md:text-6xl xl:text-[84px] font-medium xl:leading-[95px] max-w-5xl mb-6">Illuminating Paths to <span className="bg-gradient-to-r from-[#5844E5] to-[#4d8cea] 
