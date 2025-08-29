@@ -1,6 +1,7 @@
-import { FocusCards } from "./focus-cards.jsx";
+import { FocusCards } from "./ui/focus-cards.jsx";
 
-const Approach = () => {
+const Expertise = () => {
+
   const cards = [
     {
       title: "Wholesale Optimization Systems",
@@ -20,11 +21,34 @@ const Approach = () => {
     {
       title: "E-Commerce Software Solutions",
       src: "https://images.unsplash.com/photo-1486915309851-b0cc1f8a0084?q=80&w=3387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      desc: "Crafting custom software to tackle automation, logistics, and operational challenges, tailored to the needs of modern businesses."
+      desc: "Crafting custom software to tackle automation, logistics, and operational challenges, tailored to the needs of modern businesses"
     },
   ];
 
-  return <FocusCards cards={cards} />;
+
+  
+  return (
+    <div>
+        
+        {/* Title */}
+       
+        <div id="services" className="relative text-center flex flex-col items-center gap-7 px-4 sm:px-12 
+        lg:px-24 xl:px-40 pt-10 text-gray-700 dark:text-white">
+
+          <h2 className="text-4xl sm:text-5xl md:text-6xl xl:text-[84px] font-medium xl:leading-[95px] max-w-5xl mb-6">Illuminating Paths to <span className="bg-gradient-to-r from-[#5844E5] to-[#4d8cea] 
+          bg-clip-text text-transparent">Exponential Growth</span></h2>
+          <p className="max-w-lg text-center text-gray-500 dark:text-white/75 mb-20">A Glimpse Into Our Core Expertise</p>
+
+        </div>
+
+        <FocusCards cards={cards} />
+    </div>
+  );
+  
+  
+  
+
+
 }
 
-export default Approach;
+export default Expertise;

@@ -15,19 +15,19 @@ export const Card = React.memo(({ card, index, hovered, setHovered}) => (
     
     <div
       className={cn(
-        "absolute inset-0 bg-black/50 flex flex-col justify-center items-end py-8 px-4 transition-opacity duration-300",
+        "absolute inset-0 bg-black/50 flex flex-col justify-space-around items-end py-8 px-4 transition-opacity duration-300",
         hovered === index ? "opacity-100" : "opacity-0"
       )}>
       
       <div
-        className=" text-xl md:text-2xl font-medium bg-clip-text 
+        className=" text-md sm:text-xl md:text-2xl font-medium bg-clip-text 
         text-transparent bg-gradient-to-b from-neutral-50 to-neutral-300">
 
-      {/* Centered Description */}
+      {/* Seperated Description apart of flex container */}
         <p >{card.desc}</p>
 
-      {/* Absolutely Positioned Title means you have to redefine styling */}
-        <div className="absolute bottom-8 left-4 right-4 text-xl md:text-2xl font-medium bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
+      {/* Absolutely Positioned Title means you have to redifine  */}
+        <div className="absolute bottom-8 left-4 right-4 text-lg sm:text-2xl md:text-3xl font-medium bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
           {card.title}
         </div>
         
