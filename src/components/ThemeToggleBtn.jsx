@@ -1,8 +1,26 @@
 import React from 'react'
 import assets from '../assets/assets'
+import { useEffect } from 'react'
 
 const ThemeToggleBtn = ({theme, setTheme}) => {
-  return (
+
+    // Automatically detect light or dark mode from user media
+    useEffect(() => {
+        const prefersDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        setTheme(theme || (prefersDarkMode ? 'dark' : 'light'));
+    }, []); //initialized only once
+
+    // Track user theme history 
+    useEffect(() => {
+        if (theme === 'dark') {
+            document.documentElement.classList.add('dark');
+        } else {
+            document.documentElement.classList.remove('dark');
+        }
+        localStorage.setItem('theme', theme);
+    }, [theme]);
+
+    return (
   <>
 
   {/* Conditionally render sun or moon icon based on theme and toggle theme on click */}
