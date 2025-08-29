@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero';
 import TrustedBy from './components/TrustedBy'
+import Approach from './components/ui/Approach';
 
 
 
@@ -15,7 +16,7 @@ const App = () => {
     <div className='dark:bg-black relative'>
       <Navbar theme={theme} setTheme={setTheme} />
       <Hero />
- 
+      <Approach />
     </div>
   )
 }
