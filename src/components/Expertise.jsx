@@ -28,7 +28,7 @@ const Expertise = () => {
 
   
   return (
-    <div id="Expertise" className="py-20">
+    <div id="Expertise" className="py-20 min-h-screen">
         
         {/* Title */}
         <div  className="relative text-center flex flex-col items-center gap-7 px-4 sm:px-12 
