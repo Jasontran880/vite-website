@@ -2,8 +2,8 @@ import React, { useState } from 'react'
 import Navbar from './components/Navbar'
 import Hero from './components/Hero';
 import TrustedBy from './components/TrustedBy'
-import Expertise from './components/Expertise';
-import Approach from './components/Approach';
+import WhatWeDo from './components/WhatWeDo';
+import Results from './components/Results';
 import About from './components/About';
 import Footer from './components/Footer';
 import {Toaster} from 'react-hot-toast'; // to display notifications
@@ -22,8 +22,8 @@ const App = () => {
       <Toaster />
       <Navbar theme={theme} setTheme={setTheme} />
       <Hero />
-      <Expertise />
-      <Approach />
+      <WhatWeDo />
+      <Results />
       <About />
       <Footer />
   

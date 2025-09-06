@@ -1,6 +1,6 @@
 import { FocusCards } from "./ui/focus-cards.jsx";
 
-const Approach = () => {
+const Results = () => {
   const cards = [
       {
         title: "Wholesale Optimization Systems",
@@ -21,7 +21,7 @@ const Approach = () => {
 
   return (
 
-    <div id="Approach" className="py-20 min-h-screen" >
+    <div id="Results" className="py-20 min-h-screen" >
         {/* Title */}
        
         <div className="relative mt-6 text-center flex flex-col items-center gap-7 px-4 sm:px-12 
@@ -47,7 +47,7 @@ const Approach = () => {
   );
 }
 
-export default Approach;
+export default Results;
 
 
 
