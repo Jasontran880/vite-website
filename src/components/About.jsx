@@ -1,16 +1,16 @@
 import React from 'react'
 import assets from '../assets/assets'
 import Button1 from './ui/Button1'
+import { StickyScrollReveal } from './ui/StickyScrollReveal';
 
 const About = () => {
   return (
-    <div
-      id="about"
-      className="min-h-screen flex flex-col items-center gap-9 py-20 px-4  sm:px-12 
+    <div id="about">
+      <div className=" flex flex-col items-center gap-9 py-20 px-4  sm:px-12 
       lg:px-24 xl:px-40 text-center w-full overflow-hidden 
-      text-gray-700 dark:text-white"
-    >
-      {/* Headers section */}
+      text-gray-700 dark:text-white">
+
+        {/* Headers section */}
         <h3 className="text-sm text-gray-500 dark:text-gray-300">
         DUC IN ALTUM</h3>
 
@@ -22,14 +22,12 @@ const About = () => {
          dark:text-white/75 pb-3"> Stell Maris is the E-Commerce Accelerator built for <strong>growing</strong> global brands entering the booming Canadian market
         </p>
 
-        <a href="#contact-us">
-            <Button1
-            />
-        </a>
-
-        
-        
+      </div>
+      
+        <StickyScrollReveal />
     </div>
+    
+    
   );
 };
 
