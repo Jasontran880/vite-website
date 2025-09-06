@@ -2,10 +2,10 @@ import React from 'react'
 import assets from '../assets/assets'
 import Button1 from './ui/Button1'
 
-const Hero = () => {
+const About = () => {
   return (
     <div
-      id="hero"
+      id="about"
       className="min-h-screen flex flex-col items-center gap-9 py-20 px-4  sm:px-12 
       lg:px-24 xl:px-40 text-center w-full overflow-hidden 
       text-gray-700 dark:text-white"
@@ -15,8 +15,7 @@ const Hero = () => {
         DUC IN ALTUM</h3>
 
         <h1 className="text-5xl sm:text-6xl md:text-7xl xl:text-[84px] 
-        font-medium xl:leading-[95px] max-w-5xl">Lead Canada’s <br></br> <span  className="bg-gradient-to-r from-[#FFF700] to-[#B8860B] bg-clip-text text-transparent">E-Commerce Frontier</span> with Stell Maris
-        
+        font-medium xl:leading-[95px] max-w-5xl">About Stell Maris
         </h1>
 
         <p className="text-sm sm:text-lg font-medium text-gray-500
@@ -34,4 +33,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default About;

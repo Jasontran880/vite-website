@@ -1,29 +1,9 @@
-import { FocusCards } from "./ui/focus-cards.jsx";
+
+import { GlareCard } from "./ui/glare-card";
 
 const Expertise = () => {
 
-  const cards = [
-    {
-      title: "Wholesale Optimization Systems",
-      src: "https://images.unsplash.com/photo-1518710843675-2540dd79065c?q=80&w=3387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      desc: "We're developing tools that streamline supplier relationships, enabling efficient product integration and expanding into untapped markets globally."
-    },
-    {
-      title: "Product Sourcing and Distribution",
-      src: "https://images.unsplash.com/photo-1600271772470-bd22a42787b3?q=80&w=3072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      desc: "Expanding a network of trusted suppliers worldwide to secure exclusive, high-demand products for competitive marketplaces."
-    },
-    {
-      title: "Data-Driven Innovation",
-      src: "https://images.unsplash.com/photo-1505142468610-359e7d316be0?q=80&w=3070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      desc: "Harnessing AI to analyze trends, forecast demand, and optimize pricing, empowering businesses to stay competitive and informed."
-    },
-    {
-      title: "E-Commerce Software Solutions",
-      src: "https://images.unsplash.com/photo-1486915309851-b0cc1f8a0084?q=80&w=3387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      desc: "Crafting custom software to tackle automation, logistics, and operational challenges, tailored to the needs of modern businesses"
-    },
-  ];
+  
 
 
   
@@ -34,13 +14,85 @@ const Expertise = () => {
         <div  className="relative text-center flex flex-col items-center gap-7 px-4 sm:px-12 
         lg:px-24 xl:px-40 pt-10 text-gray-700 dark:text-white">
 
-          <h2 className="text-4xl sm:text-5xl md:text-6xl xl:text-[84px] font-medium xl:leading-[95px] max-w-5xl mb-6">Illuminating Paths to <span className="bg-gradient-to-r from-[#5844E5] to-[#4d8cea] 
-          bg-clip-text text-transparent">Exponential Growth</span></h2>
-          <p className="max-w-lg text-center text-gray-500 dark:text-white/75 mb-20">A Glimpse Into Our Core Expertise</p>
+          <h2 className="text-4xl sm:text-5xl md:text-6xl xl:text-[84px] font-medium xl:leading-[95px] max-w-5xl mb-6">Your North Star for E-commerce Growth</h2>
+          <p className="max-w-lg text-center text-gray-500 dark:text-white/75 mb-20">The Stell Maris Growth Engine</p>
 
         </div>
 
-        <FocusCards cards={cards} />
+  
+        {/* Flex Container for cards */}
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-x-50 gap-y-10 max-w-7xl mx-auto md:px-8 w-full justify-items-center">
+          <GlareCard className="flex flex-col items-center justify-center">
+            <svg
+              width="66"
+              height="65"
+              viewBox="0 0 66 65"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-7 w-7 text-white">
+              <path
+                d="M8 8.05571C8 8.05571 54.9009 18.1782 57.8687 30.062C60.8365 41.9458 9.05432 57.4696 9.05432 57.4696"
+                stroke="currentColor"
+                strokeWidth="15"
+                strokeMiterlimit="3.86874"
+                strokeLinecap="round" />
+            </svg>
+            <p className="text-white font-bold text-xl mt-4">Aceternity</p>
+          </GlareCard>
+          <GlareCard className="flex flex-col items-center justify-center">
+            <svg
+              width="66"
+              height="65"
+              viewBox="0 0 66 65"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-7 w-7 text-white">
+              <path
+                d="M8 8.05571C8 8.05571 54.9009 18.1782 57.8687 30.062C60.8365 41.9458 9.05432 57.4696 9.05432 57.4696"
+                stroke="currentColor"
+                strokeWidth="15"
+                strokeMiterlimit="3.86874"
+                strokeLinecap="round" />
+            </svg>
+            <p className="text-white font-bold text-xl mt-4">Aceternity</p>
+          </GlareCard>
+          <GlareCard className="flex flex-col items-center justify-center">
+            <svg
+              width="66"
+              height="65"
+              viewBox="0 0 66 65"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-7 w-7 text-white">
+              <path
+                d="M8 8.05571C8 8.05571 54.9009 18.1782 57.8687 30.062C60.8365 41.9458 9.05432 57.4696 9.05432 57.4696"
+                stroke="currentColor"
+                strokeWidth="15"
+                strokeMiterlimit="3.86874"
+                strokeLinecap="round" />
+            </svg>
+            <p className="text-white font-bold text-xl mt-4">Aceternity</p>
+          </GlareCard>
+          <GlareCard className="flex flex-col items-center justify-center">
+            <svg
+              width="66"
+              height="65"
+              viewBox="0 0 66 65"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+              className="h-7 w-7 text-white">
+              <path
+                d="M8 8.05571C8 8.05571 54.9009 18.1782 57.8687 30.062C60.8365 41.9458 9.05432 57.4696 9.05432 57.4696"
+                stroke="currentColor"
+                strokeWidth="15"
+                strokeMiterlimit="3.86874"
+                strokeLinecap="round" />
+            </svg>
+            <p className="text-white font-bold text-xl mt-4">Aceternity</p>
+          </GlareCard>
+          
+          
+        </div>
     </div>
   );
   

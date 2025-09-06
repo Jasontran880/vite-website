@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import TrustedBy from './components/TrustedBy'
 import Expertise from './components/Expertise';
 import Approach from './components/Approach';
+import About from './components/About';
 
 
 
@@ -19,6 +20,7 @@ const App = () => {
       <Hero />
       <Expertise />
       <Approach />
+      <About />
     </div>
   )
 }
