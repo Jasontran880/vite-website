@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div id="footer">
           <div className=" flex flex-col items-center gap-9 pt-20 px-4  sm:px-12 
-          lg:px-24 xl:px-40 text-center w-full overflow-hidden 
+          lg:px-24 xl:px-40 text-center w-full 
           text-gray-700 dark:text-white">
     
             {/* Headers section */}

@@ -21,7 +21,7 @@ const Results = () => {
 
   return (
 
-    <div id="Results" className="py-20 min-h-screen" >
+    <div id="Results" className="py-20" >
         {/* Title */}
        
         <div className="relative mt-6 text-center flex flex-col items-center gap-7 px-4 sm:px-12 

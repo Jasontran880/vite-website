@@ -19,13 +19,18 @@ const App = () => {
   return (
    
       <div className='dark:bg-black relative'>
+
       <Toaster />
       <Navbar theme={theme} setTheme={setTheme} />
-      <Hero />
-      <WhatWeDo />
-      <Results />
-      <About />
-      <Footer />
+
+      <div className='min-h-screen max-width: 100%' >
+          <Hero />
+          <WhatWeDo />
+          <Results />
+          <About />
+          <Footer />
+      </div>
+    
   
     </div>
    

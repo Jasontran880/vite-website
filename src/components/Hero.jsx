@@ -6,17 +6,18 @@ const Hero = () => {
   return (
     <div
       id="hero"
-      className="min-h-screen flex flex-col items-center gap-9 py-20 px-4  sm:px-12 
-      lg:px-24 xl:px-40 text-center w-full overflow-hidden 
-      text-gray-700 dark:text-white "
+      className=" 100% flex flex-col items-center gap-7 py-20 
+     text-center w-full  text-gray-700 dark:text-white "
     >
       {/* Headers section */}
         <h3 className="text-sm text-gray-500 dark:text-gray-300">
         DUC IN ALTUM</h3>
 
-        <h1 className="text-5xl sm:text-6xl md:text-7xl xl:text-[84px] 
-        font-medium xl:leading-[95px] max-w-5xl" >Lead Canada’s <br></br> <span  className="bg-gradient-to-r from-[#FFF700] to-[#B8860B] bg-clip-text text-transparent">E-Commerce Frontier</span> with Stell Maris
-        
+        <h1 className=" maw-w-5xl text-5xl sm:text-6xl md:text-7xl xl:text-[84px] 
+        font-medium" >Lead Canada’s <br/>
+        <span  className="bg-gradient-to-r from-[#FFF700] to-[#B8860B] bg-clip-text text-transparent">
+          E-Commerce Frontier
+        </span> with Stell Maris
         </h1>
 
         <p className="text-sm sm:text-lg font-medium text-gray-500
