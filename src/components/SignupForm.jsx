@@ -39,7 +39,7 @@ export default function SignupFormDemo() {
   };
   return (
     <div
-      className="shadow-input mx-auto w-full max-w-5xl rounded-none bg-white p-4 md:rounded-2xl md:p-8 dark:bg-black">
+      className="shadow-input mx-auto w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-2xl xl:max-w-4xl rounded-none bg-white p-4 md:rounded-2xl md:p-8 dark:bg-black">
      
       <form className="my-8" onSubmit={onSubmit}>
 

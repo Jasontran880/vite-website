@@ -23,15 +23,17 @@ const App = () => {
       <Toaster />
       <Navbar theme={theme} setTheme={setTheme} />
 
-      <div className='min-h-screen max-width: 100% p-20' >
-          <Hero />
-          <WhatWeDo />
-          <Results />
-          <About />
-          <Footer />
-      </div>
-    
-  
+        <div className='min-h-screen max-width: 100% p-20' >
+            <Hero />
+            <WhatWeDo />
+            <Results />
+        </div>
+
+      <About />
+
+        <div className='min-h-screen max-width: 100% p-20' >
+        <Footer />
+        </div>
     </div>
    
 

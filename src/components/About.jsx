@@ -6,8 +6,7 @@ import { StickyScrollReveal } from './ui/StickyScrollReveal';
 const About = () => {
   return (
     <div id="about">
-      <div className=" flex flex-col items-center gap-9 py-20 px-4  sm:px-12 
-      lg:px-24 xl:px-40 text-center w-full 
+      <div className=" flex flex-col items-center gap-9 py-20 text-center w-full 
       text-gray-700 dark:text-white">
 
         {/* Headers section */}
@@ -23,7 +22,7 @@ const About = () => {
         </p>
 
       </div>
-      
+
         <StickyScrollReveal />
     </div>
     
