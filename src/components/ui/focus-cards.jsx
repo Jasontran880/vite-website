@@ -26,7 +26,7 @@ export const Card = React.memo(({ card, index, hovered, setHovered}) => (
       {/* Seperated Description apart of flex container */}
         <p >{card.desc}</p>
 
-      {/* Absolutely Positioned Title means you have to redifine  */}
+      {/* Absolutely Positioned Title means you have to redefine  */}
         <div className="absolute bottom-8 left-4 right-4 text-lg sm:text-2xl md:text-3xl font-medium bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
           {card.title}
         </div>
@@ -47,7 +47,7 @@ export function FocusCards({
 
   return (
     <div
-      className="grid grid-cols-1 md:grid-cols-3 gap-10 max-w-7xl mx-auto md:px-8 w-full py-20">
+      className="grid grid-cols-1 lg:grid-cols-3 gap-10 max-w-7xl mx-auto md:px-8 w-full py-20">
       {cards.map((card, index) => (
         <Card
           key={card.title}
