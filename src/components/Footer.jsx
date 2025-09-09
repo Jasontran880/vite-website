@@ -5,7 +5,7 @@ import SignupFormDemo from './SignupForm';
 
 const Footer = () => {
   return (
-    <div id="footer">
+    <div id="contact-us">
           <div className=" flex flex-col items-center gap-9 pt-20 px-4  sm:px-12 
           lg:px-24 xl:px-40 text-center w-full overflow-hidden 
           text-gray-700 dark:text-white">
@@ -25,6 +25,25 @@ const Footer = () => {
           </div>
 
            <SignupFormDemo />
+
+           {/* Bottom of footer for links and copyright */}
+          <div className='flex justify-between lg:items-center max-lg:flex-col gap-10'>
+            <div>
+              <img src={assets.logo} className='w-32 sm:w-44' alt="" />
+              <p className='max-w-md'>
+                From strategy to execution, we craft digital solutions that move your business forward.
+              </p>
+
+              <ul className="flex gap-8">
+                <li><a className='hover:text-primary' href="#">Home</a></li>
+                <li><a className='hover:text-primary' href="#services">Services</a></li>
+                <li><a className='hover:text-primary' href="#our-work">Our Work</a></li>
+                <li><a className='hover:text-primary' href="#contact-us">Contact Us</a></li>
+              </ul>
+            </div>
+            <div></div>
+          </div>
+
 
         </div>
         

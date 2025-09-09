@@ -40,8 +40,8 @@ const Navbar = ({theme, setTheme}) => {
 
         {/* Note I may not want these links to lead to seperate pages, but to just 
         reference to sections within the same page */}
-            <a onClick={() => setSidebarOpen(false)} href="#expertise" className='sm:hover:border-b'>Expertise</a>
-            <a onClick={() => setSidebarOpen(false)} href="#our-approach" className='sm:hover:border-b'>Our Approach</a>
+            <a onClick={() => setSidebarOpen(false)} href="#services" className='sm:hover:border-b'>Services</a>
+            <a onClick={() => setSidebarOpen(false)} href="#about" className='sm:hover:border-b'>About</a>
             <a onClick={() => setSidebarOpen(false)} href="#contact-us" className='sm:hover:border-b'>Contact Us</a>
         </div>
 

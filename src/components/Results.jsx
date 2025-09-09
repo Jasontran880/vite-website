@@ -3,19 +3,19 @@ import { FocusCards } from "./ui/focus-cards.jsx";
 const Results = () => {
   const cards = [
       {
-        title: "Wholesale Optimization Systems",
+        title: "Beauty & Personal Care",
         src: "https://images.unsplash.com/photo-1518710843675-2540dd79065c?q=80&w=3387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        desc: "We're developing tools that streamline supplier relationships, enabling efficient product integration and expanding into untapped markets globally."
+        desc: "Launched a global skincare brand into Canada, achieving top category rankings (10k BSR) in under one month."
       },
       {
-        title: "Product Sourcing and Distribution",
+        title: "Consumer Electronics",
         src: "https://images.unsplash.com/photo-1600271772470-bd22a42787b3?q=80&w=3072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        desc: "Expanding a network of trusted suppliers worldwide to secure exclusive, high-demand products for competitive marketplaces."
+        desc: "Partnered with a major electronics manufacturer to remove unauthorized sellers and restore brand consistency."
       },
       {
-        title: "Data-Driven Innovation",
+        title: "Hair Care",
         src: "https://images.unsplash.com/photo-1505142468610-359e7d316be0?q=80&w=3070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        desc: "Harnessing AI to analyze trends, forecast demand, and optimize pricing, empowering businesses to stay competitive and informed."
+        desc: "Delivered a 25% sales uplift in 30 days through listing optimization and targeted PPC campaigns."
       },
     ];
 

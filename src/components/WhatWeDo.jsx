@@ -8,7 +8,7 @@ const WhatWeDo = () => {
 
   
   return (
-    <div id="WhatWeDo" className="py-20 ">
+    <div id="services" className="py-20 ">
         
         {/* Title */}
         <div  className="relative text-center flex flex-col items-center gap-7 
