@@ -16,7 +16,7 @@ const content = [
           src={assets.angels}
         
           className="h-full w-full object-cover"
-          alt="linear board demo" />
+          alt="" />
       </div>
     ),
   },
@@ -29,7 +29,7 @@ const content = [
         className="flex h-full w-full items-center justify-center bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] text-white">
         <img
           src={assets.arches}
-          alt="linear board demo" />
+          alt="" />
       </div>
     ),
   },
@@ -42,7 +42,7 @@ const content = [
         className="flex h-full w-full items-center justify-center bg-[linear-gradient(to_bottom_right,var(--orange-500),var(--yellow-500))] text-white">
         <img
           src={assets.summit}
-          alt="linear board demo" />
+          alt="" />
       </div>
     ),
   },
