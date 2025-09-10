@@ -1,20 +1,21 @@
 import { FocusCards } from "./ui/focus-cards.jsx";
+import assets from '../assets/assets'
 
 const Results = () => {
   const cards = [
-      {
+         {
         title: "Beauty & Personal Care",
-        src: "https://images.unsplash.com/photo-1518710843675-2540dd79065c?q=80&w=3387&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        src: assets.kbeauty,
         desc: "Launched a global skincare brand into Canada, achieving top category rankings (10k BSR) in under one month."
       },
       {
         title: "Consumer Electronics",
-        src: "https://images.unsplash.com/photo-1600271772470-bd22a42787b3?q=80&w=3072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        src: assets.electronics,
         desc: "Partnered with a major electronics manufacturer to remove unauthorized sellers and restore brand consistency."
       },
       {
         title: "Hair Care",
-        src: "https://images.unsplash.com/photo-1505142468610-359e7d316be0?q=80&w=3070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        src: assets.haircare,
         desc: "Delivered a 25% sales uplift in 30 days through listing optimization and targeted PPC campaigns."
       },
     ];

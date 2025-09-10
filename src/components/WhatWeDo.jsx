@@ -28,16 +28,16 @@ const WhatWeDo = () => {
             <p className=" mt-10   md:text-lg font-medium bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-300">From Amazon to Walmart, expand your brand across Canada's E-commerce horizon with our cutting edge strategies -- all powered by our equitable partnership model where we invest in your growth.</p>
           </GlareCard>
           <GlareCard className="flex flex-col items-start justify-center px-10 ">
-            <h1 className="text-white font-bold text-4xl md:text-3xl text-left pt-6">Marketplaces</h1>
-            <p className=" mt-10   md:text-lg font-medium bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-300">From Amazon to Walmart, expand your brand across Canada's E-commerce horizon with our cutting edge strategies -- all powered by our equitable partnership model where we invest in your growth.</p>
+            <h1 className="text-white font-bold text-4xl md:text-3xl text-left pt-6">Listing Optimization & SEO</h1>
+            <p className=" mt-10   md:text-lg font-medium bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-300">Maximize your brand's visibility, conversion and profitability with our data-backed listing and SEO optimizations.</p>
           </GlareCard>
           <GlareCard className="flex flex-col items-start justify-center px-10 ">
-            <h1 className="text-white font-bold text-4xl md:text-3xl text-left pt-6">Marketplaces</h1>
-            <p className=" mt-10   md:text-lg font-medium bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-300">From Amazon to Walmart, expand your brand across Canada's E-commerce horizon with our cutting edge strategies -- all powered by our equitable partnership model where we invest in your growth.</p>
+            <h1 className="text-white font-bold text-4xl md:text-3xl text-left pt-6">PPC</h1>
+            <p className=" mt-10   md:text-lg font-medium bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-300">Command Traffic and sales with performance-driven PPC. The best part is: we fund the advertising, ensuring our growth is directly tied to yours.</p>
           </GlareCard>
           <GlareCard className="flex flex-col items-start justify-center px-10 ">
-            <h1 className="text-white font-bold text-4xl md:text-3xl text-left pt-6">Marketplaces</h1>
-            <p className=" mt-10   md:text-lg font-medium bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-300">From Amazon to Walmart, expand your brand across Canada's E-commerce horizon with our cutting edge strategies -- all powered by our equitable partnership model where we invest in your growth.</p>
+            <h1 className="text-white font-bold text-4xl md:text-3xl text-left pt-6">Brand Protection</h1>
+            <p className=" mt-10   md:text-lg font-medium bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-300">Safeguard your brand reputation. We remove unauthorized sellers, enforce consistent pricing, and ensure customers experience your products the way you intended.</p>
           </GlareCard>
           
           
