@@ -4,11 +4,11 @@ import { GlareCard } from "./ui/glare-card";
 const WhatWeDo = () => {
 
   
-
+{/* min-h-screen max-width: 100% p-20 */}
 
   
   return (
-    <div id="services" className="py-20 ">
+    <div id="services" className="min-h-screen max-width: 100% p-20 ">
         
         {/* Title */}
         <div  className="relative text-center flex flex-col items-center gap-7 

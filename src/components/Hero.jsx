@@ -1,17 +1,24 @@
 import React from 'react'
 import assets from '../assets/assets'
 import Button1 from './ui/Button1'
+import { motion } from 'motion/react';
 
 const Hero = () => {
   return (
     <div
       id="hero"
-      className=" 100% flex flex-col items-center gap-7 py-20 
-     text-center w-full  text-gray-700 dark:text-white "
+      className="flex flex-col items-center gap-7
+     text-center w-full  text-gray-700 dark:text-white bg py-90 "
     >
       {/* Headers section */}
-        <h3 className="text-sm text-gray-500 dark:text-gray-300">
-        DUC IN ALTUM</h3>
+        <motion.h3 
+        initial = {{opacity: 0, y:20}}
+        whileInView = {{opacity: 1, y: 0}}
+        transition={{duration: 0.5, delay: 0.7}}
+        viewport={{once: true}}
+        
+        className="text-sm text-gray-500 dark:text-gray-300">
+        DUC IN ALTUM</motion.h3>
 
         <h1 className=" maw-w-5xl text-5xl sm:text-6xl md:text-7xl xl:text-[84px] 
         font-medium" >Lead Canada’s <br/>

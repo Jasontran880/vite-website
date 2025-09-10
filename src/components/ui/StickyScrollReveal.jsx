@@ -1,6 +1,8 @@
 "use client";
 import React from "react";
 import { StickyScroll } from "../ui/sticky-scroll-reveal";
+import assets from "../../assets/assets";
+
 
 
 const content = [
@@ -11,9 +13,8 @@ const content = [
     content: (
       <div className="flex h-full w-full items-center justify-center text-white">
         <img
-          src="/linear.webp"
-          width={300}
-          height={300}
+          src={assets.angels}
+        
           className="h-full w-full object-cover"
           alt="linear board demo" />
       </div>
@@ -26,7 +27,9 @@ const content = [
     content: (
       <div
         className="flex h-full w-full items-center justify-center bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] text-white">
-        Collaborative Editing
+        <img
+          src={assets.arches}
+          alt="linear board demo" />
       </div>
     ),
   },
@@ -37,7 +40,9 @@ const content = [
     content: (
       <div
         className="flex h-full w-full items-center justify-center bg-[linear-gradient(to_bottom_right,var(--orange-500),var(--yellow-500))] text-white">
-        Version control
+        <img
+          src={assets.summit}
+          alt="linear board demo" />
       </div>
     ),
   },
