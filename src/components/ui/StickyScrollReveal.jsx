@@ -50,7 +50,7 @@ const content = [
 
 export function StickyScrollReveal() {
   return (
-    <div className="w-full py-4">
+    <div className="w-full">
       <StickyScroll content={content} />
     </div>
   );

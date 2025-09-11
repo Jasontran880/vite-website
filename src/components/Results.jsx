@@ -34,7 +34,7 @@ const Results = () => {
           whileInView = {{opacity: 1, y: 0}}
           transition={{duration: 0.8}}
           viewport={{once: true}}
-          className="text-4xl sm:text-5xl md:text-6xl xl:text-[84px] font-medium xl:leading-[95px] max-w-5xl mb-6">Partner Results</motion.h2>
+          className="text-4xl sm:text-5xl md:text-6xl xl:text-[84px] font-medium xl:leading-[95px] max-w-5xl mb-6 bg-gradient-to-b from-slate-50 via-slate-200 to-slate-800 bg-clip-text text-transparent">Partner Results</motion.h2>
 
 
         </div>

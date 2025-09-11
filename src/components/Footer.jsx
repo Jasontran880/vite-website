@@ -50,7 +50,7 @@ const Footer = () => {
 
           {/* Footer bottom copyright */}
             
-            <div className='text-center'>
+            <div className='text-center dark:text-white pt-10'>
               <p>Copyright 2025 ©  Stell Maris Ventures Inc.</p>
             </div>
 

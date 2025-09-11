@@ -18,15 +18,12 @@ const About = () => {
         transition={{duration: 0.8}}
         viewport={{once: true}}
         className="text-5xl sm:text-6xl md:text-7xl xl:text-[84px] 
-        font-medium xl:leading-[95px] max-w-5xl bg-gradient-to-b from-slate-50 via-slate-200 to-slate-800 bg-clip-text text-transparent">About Stell Maris
+        font-medium xl:leading-[95px] max-w-5xl bg-gradient-to-b from-slate-700 via-gray-300 to-slate-50 bg-clip-text text-transparent">About Stell Maris
         </motion.h1>
 
       </div>
 
-      <motion.div
-        initial = {{opacity: 0}}
-        whileInView = {{opacity: 1}}
-        transition={{duration: 2}}>
+      <motion.div>
                <StickyScrollReveal />
       </motion.div>
    
