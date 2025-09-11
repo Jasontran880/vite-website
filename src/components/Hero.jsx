@@ -11,9 +11,9 @@ const Hero = () => {
         transition={{duration: 1}}
       id="hero"
       className="flex flex-col items-center gap-7
-     text-center w-full  text-gray-700 dark:text-white py-10 lg:py-20 xl:py-70 px-10 bg"
+     text-center w-full  text-gray-700 dark:text-white py-20 lg:py-40 xl:py-80 px-10 bg"
     >
-  
+   
 
         <motion.h1 
         initial = {{opacity: 0, y:40}}
