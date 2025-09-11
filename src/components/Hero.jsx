@@ -28,11 +28,12 @@ const Hero = () => {
         whileInView = {{opacity: 1, y: 0}}
         transition={{duration: 0.6, delay: 0.8}}
         viewport={{once: true}}
-        className=" maw-w-5xl text-5xl sm:text-6xl md:text-7xl xl:text-[84px] 
-        font-medium" >Lead Canada’s <br/>
-        <span  className="bg-gradient-to-r from-[#FFF700] to-[#B8860B] bg-clip-text text-transparent">
-          E-Commerce Frontier <br></br>
-        </span> with Stell Maris
+        className="header max-w-5xl text-5xl sm:text-6xl md:text-7xl xl:text-[84px] 
+        font-medium"> Lead Canada’s <br/>
+        <span  className="bg-gradient-to-r from-yellow-300 via-amber-400 to-yellow-600 bg-clip-text text-transparent">
+          E-Commerce</span> 
+          <span className="bg-gradient-to-r from-yellow-300 via-amber-400 to-yellow-600 bg-clip-text text-transparent"> Frontier</span> 
+          <br/>with Stell Maris
         </motion.h1>
         <motion.p 
         initial = {{opacity: 0, y:30}}
@@ -60,3 +61,4 @@ const Hero = () => {
 };
 
 export default Hero;
+

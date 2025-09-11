@@ -26,7 +26,7 @@ const Footer = () => {
             transition={{duration: 0.6, delay: 0.6}}
             viewport={{once: true}}
             className="text-5xl sm:text-6xl md:text-7xl xl:text-[84px] 
-            font-medium xl:leading-[95px] max-w-5xl">Your growth starts here. 
+            font-medium xl:leading-[95px] max-w-5xl"> <span className="bg-gradient-to-b from-slate-50 via-slate-200 to-slate-800 bg-clip-text text-transparent">Your growth starts here.</span> 
             </motion.h1>
     
             <motion.p
