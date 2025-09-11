@@ -31,9 +31,7 @@ export const StickyScroll = ({
   });
 
   const backgroundColors = [
-    "#0f172a", // slate-900
     "#000000", // black
-    "#171717", // neutral-900
   ];
   const linearGradients = [
     "linear-gradient(to bottom right, #06b6d4, #10b981)", // cyan-500 to emerald-500
@@ -86,7 +84,7 @@ export const StickyScroll = ({
       <div
         style={{ background: backgroundGradient }}
         className={cn(
-          "sticky top-10 hidden h-80 w-140 overflow-hidden rounded-md bg-white lg:block",
+          "sticky top-10 hidden h-78 w-120 overflow-hidden rounded-md bg-white lg:block",
           contentClassName
         )}>
         {content[activeCard].content ?? null}

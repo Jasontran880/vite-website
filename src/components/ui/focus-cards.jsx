@@ -20,14 +20,14 @@ export const Card = React.memo(({ card, index, hovered, setHovered}) => (
       )}>
       
       <div
-        className=" text-md sm:text-xl md:text-2xl font-medium bg-clip-text 
+        className=" text-xl md:text-2xl font-medium bg-clip-text 
         text-transparent bg-gradient-to-b from-neutral-50 to-neutral-300">
 
       {/* Seperated Description apart of flex container */}
         <p >{card.desc}</p>
 
       {/* Absolutely Positioned Title means you have to redefine  */}
-        <div className="absolute bottom-8 left-4 right-4 text-lg sm:text-2xl md:text-3xl font-medium bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
+        <div className="absolute bottom-8 left-4 right-4 text-3xl md:text-3xl font-medium bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
           {card.title}
         </div>
         

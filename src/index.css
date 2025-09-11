@@ -11,6 +11,10 @@
   font-weight: 600;
 }
 
+body{
+  @apply bg-background text-foreground;
+}
+
 .bg{
   background-size: cover;
   background-position: center;
@@ -91,8 +95,12 @@
   --sidebar-ring: oklch(0.708 0 0);
 }
 
+.disclaimer{
+  font-weight: 200;
+}
+
 .dark {
-  --background: oklch(0.1686 0.061 271.92);
+  --background: oklch(0.1385 0.0424 270.51);
   --foreground: oklch(0.985 0 0);
   --card: oklch(0.205 0 0);
   --card-foreground: oklch(0.985 0 0);

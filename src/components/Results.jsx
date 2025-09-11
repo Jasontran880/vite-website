@@ -50,7 +50,7 @@ const Results = () => {
       
       <div  className="relative text-center flex flex-col items-center gap-7 px-4 sm:px-6 
         lg:px-12 xl:px-20 text-gray-700 dark:text-white">
-            <p className="text-center text-gray-500 dark:text-white/75 mb-20 italic">At this point in time, we don’t disclose partner names publicly</p>
+            <p className="text-center text-gray-500 dark:text-white/75 mb-20 disclaimer italic">At this point in time, we don’t disclose partner names publicly</p>
         </div>
      
 
