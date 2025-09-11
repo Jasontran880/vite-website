@@ -2,6 +2,7 @@ import React from 'react'
 import assets from '../assets/assets'
 import Button1 from './ui/Button1'
 import SignupFormDemo from './SignupForm';
+import { motion } from 'motion/react';
 
 const Footer = () => {
   return (
@@ -11,20 +12,41 @@ const Footer = () => {
           text-gray-700 dark:text-white">
     
             {/* Headers section */}
-            <h3 className="text-sm text-gray-500 dark:text-gray-300">
-            DUC IN ALTUM</h3>
+            <motion.h3
+            initial = {{opacity: 0, y:20}}
+            whileInView = {{opacity: 1, y: 0}}
+            transition={{duration: 0.5, delay: 0.5}}
+            viewport={{once: true}}
+            className="text-sm text-gray-500 dark:text-gray-300">
+            DUC IN ALTUM</motion.h3>
     
-            <h1 className="text-5xl sm:text-6xl md:text-7xl xl:text-[84px] 
+            <motion.h1
+            initial = {{opacity: 0, y:40}}
+            whileInView = {{opacity: 1, y: 0}}
+            transition={{duration: 0.6, delay: 0.6}}
+            viewport={{once: true}}
+            className="text-5xl sm:text-6xl md:text-7xl xl:text-[84px] 
             font-medium xl:leading-[95px] max-w-5xl">Your growth starts here. 
-            </h1>
+            </motion.h1>
     
-            <p className="text-sm sm:text-lg font-medium text-gray-500
+            <motion.p
+            initial = {{opacity: 0, y:30}}
+            whileInView = {{opacity: 1, y: 0}}
+            transition={{duration: 0.5, delay: 0.8}}
+            viewport={{once: true}}
+             className="text-sm sm:text-lg font-medium text-gray-500
              dark:text-white/75 pb-3"> The Canadian market is ready. Let’s expand your brand.
-            </p>
+            </motion.p>
     
           </div>
 
-           <SignupFormDemo />
+            <motion.div
+              initial = {{opacity: 0}}
+              whileInView = {{opacity: 1}}
+              transition={{duration: 2}}>
+              <SignupFormDemo />
+            </motion.div>
+        
 
           {/* Footer bottom copyright */}
             

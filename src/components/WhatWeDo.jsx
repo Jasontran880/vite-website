@@ -1,5 +1,6 @@
 
 import { GlareCard } from "./ui/glare-card";
+import { motion } from "motion/react";
 
 const WhatWeDo = () => {
 
@@ -11,17 +12,34 @@ const WhatWeDo = () => {
     <div id="services" className="min-h-screen max-width: 100% p-20 ">
         
         {/* Title */}
-        <div  className="relative text-center flex flex-col items-center gap-7 
+        <div 
+        className="relative text-center flex flex-col items-center gap-7 
         lg:px-24 xl:px-40 pt-10 text-gray-700 dark:text-white">
-
-          <h2 className="text-4xl sm:text-5xl md:text-6xl xl:text-[84px] font-medium xl:leading-[95px] max-w-5xl mb-6">Your North Star for E-commerce Growth</h2>
-          <p className="max-w-lg text-center text-gray-500 dark:text-white/75 mb-20">The Stell Maris Growth Engine</p>
+          <motion.h2 
+          initial = {{opacity: 0, y:30}}
+          whileInView = {{opacity: 1, y: 0}}
+          transition={{duration: 0.8}}
+          viewport={{once: true}}
+          className="text-4xl sm:text-5xl md:text-6xl xl:text-[84px] font-medium xl:leading-[95px] max-w-5xl mb-6">Your North Star for E-commerce Growth
+          </motion.h2>
+          <motion.p 
+          initial = {{opacity: 0, y:20}}
+          whileInView = {{opacity: 1, y: 0}}
+          transition={{duration: 1}}
+          viewport={{once: true}}
+          className="max-w-lg text-center text-gray-500 dark:text-white/75 mb-20">The Stell Maris Growth Engine
+          </motion.p>
 
         </div>
 
   
         {/* Grid Container for cards */}
-        <div className="grid grid-cols-1 md:grid-cols-4 w-full mx-auto justify-items-center gap-3 md:gap-25 lg:gap-x-0">
+        <motion.div 
+          initial = {{opacity: 0, y:30}}
+          whileInView = {{opacity: 1, y: 0}}
+          transition={{duration: 0.8, delay: 0.5}}
+          viewport={{once: true}}
+        className="grid grid-cols-1 md:grid-cols-4 w-full mx-auto justify-items-center gap-3 md:gap-25 lg:gap-x-0">
           
           <GlareCard className="flex flex-col items-start justify-center px-10 ">
             <h1 className="text-white font-bold text-4xl md:text-3xl text-left pt-6">Marketplaces</h1>
@@ -41,7 +59,7 @@ const WhatWeDo = () => {
           </GlareCard>
           
           
-        </div>
+        </motion.div>
     </div>
   );
   

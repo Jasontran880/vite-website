@@ -2,6 +2,7 @@ import React from 'react'
 import assets from '../assets/assets'
 import Button1 from './ui/Button1'
 import { StickyScrollReveal } from './ui/StickyScrollReveal';
+import { motion } from 'motion/react';
 
 const About = () => {
   return (
@@ -10,20 +11,25 @@ const About = () => {
       text-gray-700 dark:text-white">
 
         {/* Headers section */}
-        <h3 className="text-sm text-gray-500 dark:text-gray-300">
-        DUC IN ALTUM</h3>
 
-        <h1 className="text-5xl sm:text-6xl md:text-7xl xl:text-[84px] 
+        <motion.h1 
+        initial = {{opacity: 0, y:30}}
+        whileInView = {{opacity: 1, y: 0}}
+        transition={{duration: 0.8}}
+        viewport={{once: true}}
+        className="text-5xl sm:text-6xl md:text-7xl xl:text-[84px] 
         font-medium xl:leading-[95px] max-w-5xl">About Stell Maris
-        </h1>
-
-        <p className="text-sm sm:text-lg font-medium text-gray-500
-         dark:text-white/75 pb-3"> Stell Maris is the E-Commerce Accelerator built for <strong>growing</strong> global brands entering the booming Canadian market
-        </p>
+        </motion.h1>
 
       </div>
 
-        <StickyScrollReveal />
+      <motion.div
+        initial = {{opacity: 0}}
+        whileInView = {{opacity: 1}}
+        transition={{duration: 2}}>
+               <StickyScrollReveal />
+      </motion.div>
+   
     </div>
     
     

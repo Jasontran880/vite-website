@@ -5,10 +5,13 @@ import { motion } from 'motion/react';
 
 const Hero = () => {
   return (
-    <div
+    <motion.div
+        initial = {{opacity: 0}}
+        whileInView = {{opacity: 1}}
+        transition={{duration: 1}}
       id="hero"
       className="flex flex-col items-center gap-7
-     text-center w-full  text-gray-700 dark:text-white bg py-70 px-10 "
+     text-center w-full  text-gray-700 dark:text-white py-10 lg:py-20 xl:py-70 px-10 bg"
     >
       {/* Headers section */}
         <motion.h3 
@@ -31,7 +34,6 @@ const Hero = () => {
           E-Commerce Frontier <br></br>
         </span> with Stell Maris
         </motion.h1>
-
         <motion.p 
         initial = {{opacity: 0, y:30}}
         whileInView = {{opacity: 1, y: 0}}
@@ -42,18 +44,18 @@ const Hero = () => {
         </motion.p>
 
         <motion.a 
-             initial = {{opacity: 0, scale:0.9}}
-        whileInView = {{opacity: 1, y: 1}}
-        transition={{duration: 0.6, delay: 1.5}}
-        viewport={{once: true}}
-        href="#contact-us">
-            <Button1
-            />
+          initial = {{opacity: 0, scale:0.9}}
+          whileInView = {{opacity: 1, y: 1}}
+          transition={{duration: 0.6, delay: 1}}
+          viewport={{once: true}}
+          href="#contact-us">
+          <Button1/>
         </motion.a>
+
 
         
         
-    </div>
+    </motion.div>
   );
 };
 
