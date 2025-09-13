@@ -1,12 +1,11 @@
-# React + Vite
+# First React Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+First custom website built with React + Vite + TailwindCSS.
+Starting from zero experience in web development, I learned the barebone basics of HTML, CSS, JavaScript in the Odin Project and jumped straight into a React project.
 
-Currently, two official plugins are available:
+I followed several youtube videos for the structure of my project, for some styling, and for instruction on how to import custom components from AceternityUI.
+I employed the use of several AI models to help with debugging and implementing my ideas, though I did not employ the agent feature as I found that robbed me of learning 
+and messed up my code structure.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+From this experience I learned about the structure of HTML files, the structure of a React Project within Vite, creating react components, mounting components within eachother, importing custom components,
+html styling in Tailwind.
