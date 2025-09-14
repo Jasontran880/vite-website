@@ -15,7 +15,7 @@ export default function SignupFormDemo() {
   
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "08d77356-1f07-4cad-83a0-744c433b8ca4");
+    formData.append("access_key", "fca02a2e-882e-47ea-ae1a-05c994c9d1ce");
 
     try {
       const response = await fetch("https://api.web3forms.com/submit", {
@@ -26,7 +26,7 @@ export default function SignupFormDemo() {
     const data = await response.json();
 
     if (data.success) {
-      toast.success("Thank you for your submission!");
+      toast.success("Thank you. Our team will be in touch shortly.");
       event.target.reset();
     } else {
       toast.error(data.message);
